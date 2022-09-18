@@ -29,7 +29,7 @@ jobs:
       working-directory: artifact/publish
 
     - name: Copy CloudFormation Template
-      run: cp ./GHActionsCFStudy/deployment.yml ./artifact/deployment.yml
+      run: cp ./deployment.yml ./artifact/deployment.yml
       
     - uses: actions/upload-artifact@v3
       with:
