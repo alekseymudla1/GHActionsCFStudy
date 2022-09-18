@@ -45,6 +45,3 @@ Resources:
       Code:
         S3Bucket: demo-loudformation-packages 
         S3Key: lambda.zip
-      Tags:
-        - Key: keyname
-          Value: value
